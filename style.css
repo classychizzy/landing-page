@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* this  is a reset used to take away all paddings and margins off the page */
+body{
+    margin:0;
+font-family: Arial, Helvetica, sans-serif;
+font-size:17px;
+color:yellow;
+line-height: 1.6;}
+#showcase{
+background-image: url('artsy-conceptual-hallway-1722093.jpg');
+height:100vh;
+/* the image occupies the entire width but because we wish to
+see more we add the background properties*/
+background-size: cover;
+background-position: center;
+/* here we make use of css flex-box property*/
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+text-align: center;
+}
+.content p{
+    opacity:1;
+}
+#showcase p{
+    font-size: 20px;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color:#a2a1b3;
+    border:#a2a1b3 1px solid;
+    padding: 10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+}
+#showcase h1{
+    font-size:50px;
+    line-height:1.2;
+}
+#showcase .button:hover{
+background:#1000f3;
+color:#ffff;
+}
+#section1{
+padding:20px;
+background:#682a2a;
+color:#ffffff;
+text-align:center;
+}
+#section2{
+    display:flex;
+}
+#section2{
+background: #54df14;
+color: #000000;
+}
